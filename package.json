@@ -1,0 +1,18 @@
+{
+  "name": "cypress-learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --spec ./cypress/e2e/features/*/*.feature --headed"
+  },
+  "keywords": [],
+  "author": "Anil",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^15.1.5",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "cypress": "^12.9.0",
+    "esbuild": "^0.17.11"
+  }
+}
